@@ -90,7 +90,7 @@ class _ExpandableGroupState extends State<ExpandableGroup> {
       onTap: () => _updateExpandState(!_isExpanded),
     ));
     return Ink(
-      color: widget.headerBackgroundColor ?? Theme.of(context).appBarTheme.color,
+      color: widget.headerBackgroundColor ?? Theme.of(context).appBarTheme.backgroundColor,
       child: Column(
         children: children,
       ),
